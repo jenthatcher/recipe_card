@@ -1,0 +1,158 @@
+body {
+    background-color: #daf7f6;
+    color: #3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    color: #f16059;    
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 40px 0px;
+    text-transform: uppercase;
+}
+
+header img {
+    margin-right: 16px;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/*****CARDS*****/
+
+.card {
+    margin: 25px 0;
+    overflow: auto;
+}
+
+.image {
+    float: left;
+    height: 550px;
+    width: 500px;
+}
+.recipe {
+    background: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    height: 550px;
+    padding: 20px;
+    width: 500px;
+}
+
+#cookies .image {
+    background-image: url(../img/gluten-free-sugar-cookies.jpg);
+    background-size: cover;
+}
+
+#pesto .image {
+    background-image: url(../img/nut-free-pesto.jpg);
+    background-size: cover;
+}
+
+#salad .image {
+    background-image: url(../img/watermelon-salad.jpg);
+    background-size: cover;
+}
+
+.recipe h2 {
+    color: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.time {
+    border-color: #3b3b3b;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.time div{
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+    padding-left: 6px;
+    text-transform: uppercase;
+    width: 33.3333%;
+}
+
+.time .cook {
+    border-color: #3b3b3b;
+    border-style: solid;
+    border-width: 0 1px;   
+}
+
+.time img {
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 15px;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time-strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+    overflow: auto;
+}
+
+.columns .directions {
+    float: left;
+    width: 240px;
+}
+
+.columns .ingredients {
+    float: left;
+    margin-right: 5px;
+    width: 205px;
+}
+
+.recipe h3 {
+    border-color: #3b3b3b;
+    border-style: solid;
+    border-width: 1px 0;
+    color: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    text-transform: uppercase;
+}
+
+.ingredients ul {
+    font-size: 12px;
+    line-height: 22px;
+    list-style-type: square;
+    padding-left: 15px;
+
+}
+
+.directions ol {
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 15px;
+}
